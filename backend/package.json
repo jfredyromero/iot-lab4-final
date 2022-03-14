@@ -1,0 +1,21 @@
+{
+  "name": "lab4organizado",
+  "version": "1.0.0",
+  "description": "\"Curso de lab4\"",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "author": "Lina M",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.2",
+    "morgan": "^1.10.0",
+    "mqtt": "^4.3.6",
+    "nodemon": "^2.0.15",
+    "validator": "^13.7.0"
+  }
+}

@@ -1,0 +1,17 @@
+<div class="col-lg-12 col-md-12 col-sm-12">
+	<div class="card card-chart">
+		<div [classList]="classColor">
+			<div class="ct-chart" [id]="chartName"></div>
+		</div>
+		<div class="card-body">
+			<h4 class="card-title">{{ chartName }}</h4>
+			<p class="card-category">Datos tomados con {{ device }}</p>
+		</div>
+		<div class="card-footer">
+			<div class="stats">
+				<i class="material-icons">access_time</i> Last updated
+				{{ lastUpdate | timeAgo }}
+			</div>
+		</div>
+	</div>
+</div>

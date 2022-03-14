@@ -1,0 +1,24 @@
+<div class="main-content">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12">
+				<app-grafica-barras
+					[chartName]="'Frio-Barras'"
+					[classColor]="'card-header card-header-danger'"
+					[lastUpdate]="lastDateEsp"
+					[device]="'Esp'"
+					[series]="[valuesEsp]"
+					[labels]="[]"
+				></app-grafica-barras>
+				<app-grafica-puntos
+					[chartName]="'Frio-Puntos'"
+					[classColor]="'card-header card-header-danger'"
+					[lastUpdate]="lastDateEsp"
+					[device]="'Esp'"
+					[series]="[valuesEsp]"
+					[labels]="[]"
+				></app-grafica-puntos>
+			</div>
+		</div>
+	</div>
+</div>
